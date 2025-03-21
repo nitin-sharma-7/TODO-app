@@ -6,6 +6,17 @@ function ToDoList({ setData, data }) {
   function handlechange(e) {
     setTodo(e.target.value);
   }
+  function handelKeyDown(e) {
+    if (e.key == "Enter") {
+      if (todo != "") {
+        setData((prev) => [...prev, todo]);
+      } else {
+        alert("please enter somethoing ");
+      }
+      setTodo("");
+    }
+  }
+
   function handleClick() {
     if (todo != "") {
       setData((prev) => [...prev, todo]);
@@ -27,14 +38,18 @@ function ToDoList({ setData, data }) {
   return (
     <>
       <div className="todolist-container">
-        <div>
+        <div className="add-todo">
           <input
+            placeholder="Add new to do here..."
             className="input"
             type="text"
             value={todo}
             onChange={(e) => handlechange(e)}
+            onKeyDown={handelKeyDown}
           />
-          <button onClick={handleClick}>ADD</button>
+          <button className="add-btn" onClick={handleClick}>
+            <i className="fa-solid fa-plus"></i> ADD
+          </button>
         </div>
         <div className="todolist">
           {data.map((val, i) => {

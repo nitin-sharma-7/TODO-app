@@ -4,7 +4,10 @@ function Header() {
   return (
     <>
       <div className="header">
-        <h1>TO-DO App</h1>
+        <h1 className="heading">
+          <span>TO</span>-<span>DO&nbsp;</span>
+          <span>App</span>
+        </h1>
       </div>
     </>
   );
