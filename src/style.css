@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(211, 180, 206);
   font-family: "Poppins", sans-serif;
 }
 .header {
@@ -42,9 +41,14 @@ button {
 .todo-item {
   display: flex;
 
-  border: 2px solid rgb(215, 198, 198);
+  border: 2px solid rgb(239, 220, 220);
   padding: 10px;
   justify-content: space-between;
+}
+.todo-item:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 0.3s;
 }
 .marked {
   text-decoration: line-through;
