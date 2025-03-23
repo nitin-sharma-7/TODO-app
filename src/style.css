@@ -112,6 +112,5 @@ body {
   text-decoration: line-through;
 }
 .checkbox {
-  width: 100px;
-  border-radius: 50%;
+  width: 20px;
 }
