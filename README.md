@@ -16,7 +16,7 @@ A simple, intuitive Todo application built with React and Vite to help you manag
 
 ## Live Demo
 
-Check out the live version: [TODO App Demo](https://nitin-sharma-7.github.io/TODO-app/)
+https://todoappbynitin.netlify.app/
 
 ## Installation and Setup
 
