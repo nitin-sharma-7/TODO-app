@@ -73,3 +73,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 - **Nitin Sharma** - [GitHub Profile](https://github.com/nitin-sharma-7)
+
+- screenshots
+  
+
+![Screenshot (170)](https://github.com/user-attachments/assets/3ad17438-e374-46d3-81fe-6def4fff2140)
