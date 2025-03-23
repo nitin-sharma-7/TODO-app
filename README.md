@@ -1,12 +1,75 @@
-# React + Vite
+# TODO App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, intuitive Todo application built with React and Vite to help you manage your daily tasks efficiently.
 
-Currently, two official plugins are available:
+## Core Functionality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Tasks**: Create new tasks in your to-do list
+- **Edit Tasks**: Update the content of existing tasks
+- **Mark as Done**: Toggle the completion status of tasks
+- **Delete Tasks**: Remove tasks from your list
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React library
+- vite bundler to setup environment
+
+## Live Demo
+
+Check out the live version: [TODO App Demo](https://nitin-sharma-7.github.io/TODO-app/)
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   git clone https://github.com/nitin-sharma-7/TODO-app.git
+
+2. Navigate to the project directory:
+
+   cd TODO-app
+
+3. Install dependencies:
+
+   npm install
+
+4. Run the development server:
+
+   npm run dev
+
+5. Open your browser and visit:
+
+   http://localhost:5173
+
+## 📝 Usage Guide
+
+1. **Adding Tasks**:
+
+   - Type your task in the input field
+   - Press Enter or click the +Add button
+
+2. **Editing Tasks**:
+   click on edit icon
+
+3. **Marking Tasks as Done**:
+
+   - Click the checkbox to marked as done
+
+4. **Deleting Tasks**:
+   - Click the delete/trash icon next to edit icon
+   - Deleted tasks are permanently removed
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **Nitin Sharma** - [GitHub Profile](https://github.com/nitin-sharma-7)

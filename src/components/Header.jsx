@@ -5,8 +5,7 @@ function Header() {
     <>
       <div className="header">
         <h1 className="heading">
-          <span>TO</span>-<span>DO&nbsp;</span>
-          <span>App</span>
+          <div className="heading-text">To-Do&nbsp;App </div>
         </h1>
       </div>
     </>

@@ -6,10 +6,11 @@ function ToDoItem({ todoval, index, delToDo, editToDo }) {
     <>
       <div className="todo-item">
         <span>{index}.</span>
-        <span className={`${isCheck ? "marked" : ""}`}>{todoval}</span>
+        <span className={`${isCheck ? "marked" : ""} todo-text`}>
+          {todoval}
+        </span>
         <div className="todo-btns">
           <input
-            placeholder="add new to do here..."
             onChange={() => setIsCheck(!isCheck)}
             title="marked as done"
             type="checkbox"
